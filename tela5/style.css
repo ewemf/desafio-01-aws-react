@@ -1,14 +1,154 @@
+.inter-body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-size: 1rem;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.container{
+    margin-top: 16.5px;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+
+
+#texto-principal{
+    font-family: "Inter", sans-serif;
+    font-size: 6vh;
+    padding-top: 30px;
+}
+
+#facebook{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 30px;
+    margin: 25px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    color: black;
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#facebook:hover, #google:hover, #apple:hover{
+    background-color: #DDDDDD;
+}
+
+#google{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 30px;
+    margin: 25px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    color: black;
+    width: 250px;
+}
+
+#apple{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 30px;
+    margin: 25px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    color: black;
+    width: 250px;
+}
+
+#fb-texto, #google-texto, #apple-texto{
+    font-family: "Inter", sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#fb-logo, #google-logo, #apple-logo{
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+#email{
+    font-family: "Inter", sans-serif;
+    background: #FF6064;
+    color: white;
+    border: none;
+    padding: 12px 90px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+#email:hover {
+    box-shadow: 0px 2px 4px 0px black;
+}
+
+#palavra{
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vh;
+    padding-bottom: 3.5vh;
+}
+
+#pergunta, #signup{
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vh;
+    padding-top: 3vh;
+}
+
+#signup{
+    color: #FF6064;
+    cursor: pointer;
+}
+
 #seta, #seta-rosa{
     position: absolute;
-    top: 90px;
+    top: 75px;
     left: 108px;
     margin-bottom: 10px;
     transition: opacity 0.3s ease;
+    cursor: pointer;
 }
 
 .container-img:hover #seta-rosa{
     position: absolute;
-    top: 90px;
+    top: 75px;
     left: 108px;
     margin-bottom: 10px;
     opacity: 1;
@@ -16,7 +156,7 @@
 
 .container-img:hover #seta{
     position: absolute;
-    top: 90px;
+    top: 75px;
     left: 108px;
     margin-bottom: 10px;
     opacity: 0;

@@ -12,29 +12,29 @@
 <body>
     <div class="container">
 
-        <div onclick="window.location.href='tela4-apresentacao.html';" class="container-img">
+        <div onclick="window.location.href='tela1-loading.html';" class="container-img">
             <img src="imgs-gerais/Vector rosa.svg" id="seta-rosa">
             <img src="imgs-gerais/vector.svg" id="seta">
         </div>
 
+        <p id="texto-principal">Let's log you in</p>
+        
         <div class="opcoes">
-            <p id="texto-principal">Let's log you in</p>
 
-            <img src="tela5/imgs/fb-logo.svg" id="fb-logo">
-            <button id="facebook">Continue with Facebook</button>
+            <a href="https://facebook.com/"><button id="facebook"><img src="tela5/imgs/fb-logo.svg" id="fb-logo"><p id="fb-texto">Continue with Facebook</p></button></a>
 
-            <img src="tela5/imgs/google-logo.svg" id="google-logo">
-            <button id="google">Continue with Google</button>
+            <a href="https://google.com/"><button id="google"><img src="tela5/imgs/google-logo.svg" id="google-logo"><p id="google-texto">Continue with Google</p></button></a>
 
-            <img src="tela5/imgs/apple-logo.svg" id="apple-logo">
-            <button id="apple">Continue with Apple</button>
+            <a href="https://www.apple.com/br/"><button id="apple"><img src="tela5/imgs/apple-logo.svg" id="apple-logo"><p id="apple-texto">Continue with Apple</p></button></a>
 
-            <p id="palavra">or</p>
+        </div>
+
+            <p id="palavra">Or</p>
 
             <button id="email">Log in with E-mail</button>
 
-            <p id="signup">Don't have an account? Sign up</p>
-        </div>
+            <p id="pergunta">Don't have an account? <span onclick="window.location.href='tela6-registro.html';" id="signup">Sign up</span></p>
+        
         
     </div>
 </body>

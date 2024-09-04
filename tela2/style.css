@@ -33,7 +33,7 @@
 }
 
 #texto{
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 2.5vh;
     margin-top: -15px;
     text-align: center;
@@ -78,6 +78,7 @@
     text-align: center;
     font-size: 12px;
     transition: box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .botao:hover {

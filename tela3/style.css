@@ -16,15 +16,16 @@
 
 #seta, #seta-rosa{
     position: absolute;
-    top: 90px;
+    top: 75px;
     left: 108px;
     margin-bottom: 10px;
     transition: opacity 0.3s ease;
+    cursor: pointer;
 }
 
 .container-img:hover #seta-rosa{
     position: absolute;
-    top: 90px;
+    top: 75px;
     left: 108px;
     margin-bottom: 10px;
     opacity: 1;
@@ -32,7 +33,7 @@
 
 .container-img:hover #seta{
     position: absolute;
-    top: 90px;
+    top: 75px;
     left: 108px;
     margin-bottom: 10px;
     opacity: 0;
@@ -58,7 +59,7 @@
 }
 
 #texto{
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 2.5vh;
     margin-top: -15px;
     text-align: center;
@@ -103,6 +104,7 @@
     text-align: center;
     font-size: 12px;
     transition: box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .botao:hover {
