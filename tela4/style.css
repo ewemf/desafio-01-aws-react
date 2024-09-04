@@ -16,7 +16,6 @@
 
 #seta, #seta-rosa{
     position: absolute;
-    position: absolute;
     top: 90px;
     left: 108px;
     margin-bottom: 10px;
@@ -24,7 +23,6 @@
 }
 
 #seta-rosa{
-    position: absolute;
     position: absolute;
     top: 90px;
     left: 108px;
@@ -34,7 +32,6 @@
 
 .container-img:hover #seta-rosa{
     position: absolute;
-    position: absolute;
     top: 90px;
     left: 108px;
     margin-bottom: 10px;
@@ -42,7 +39,6 @@
 }
 
 .container-img:hover #seta{
-    position: absolute;
     position: absolute;
     top: 90px;
     left: 108px;
@@ -65,7 +61,7 @@
     max-width: 100%;
     height: auto;
     display: flex;
-    padding: 9.5px;
+    padding: 13.5px;
     margin: 0;
 }
 
@@ -82,8 +78,8 @@
     justify-content: center;
     margin-bottom: 20px;
     margin-top: 5px;
+    margin-left: 10px;
     margin-right: center;
-    margin-left: center;
 }
 
 .circulo {
@@ -102,7 +98,7 @@
     border-radius: 10px;
     margin-right: 2px;
     margin-left: 2px;
-    margin-top: 2px;
+    margin-top: 1px;
 }
 
 .botao {
@@ -126,16 +122,40 @@
         width: 100%;
         padding: 10px;
     }
+    #seta, #seta-rosa{
+        top: 50px;
+        left: 25px;
+    }
+
+    .container-img:hover #seta-rosa{
+        top: 50px;
+        left: 25px;
+    }
+    
+    .container-img:hover #seta{
+        top: 50px;
+        left: 25px;
+    }
+
+    #img-principal{
+        width: 90%;
+    }
     #texto{
-        font-size: 40px;
+        font-size: 45px;
+        text-align: center;
         font-weight: bold;
     }
     .tres-circulos{
-        margin-left: 15px;
+        margin-left: center;
+        margin-left: 20px;
+    }
+    .circulo-pintado{
+        width: 45px;
+        height: 15px;
     }
     .botao {
         margin-top: 15px;
-        padding: 12px 150px;
+        padding: 15px 165px;
         border-radius: 30px;
         font-size: 15px;
     }
