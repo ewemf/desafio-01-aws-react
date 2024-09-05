@@ -104,3 +104,67 @@ button {
 #criar-conta:hover {
     box-shadow: 0px 2px 4px 0px black;
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: #FF6064;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        padding-top: 90px;
+        margin-top: 150px;
+        width: 240px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .form-container {
+        padding-top: -300px;
+        width: 435px;
+        height: 680px;
+        margin-top: -10px;
+        border-radius: 35px 35px 0 0;
+    }
+
+    h2 {
+        padding-top: 25px;
+        font-size: 50px;
+    }
+
+    #lName, #lEmail, #lPassword, #lConfirm-Password{
+        font-size: 20px;
+    }
+
+    #name, #email, #password, #confirm-password{
+        font-size: 20px;
+    }
+
+    form {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .butoes {
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    }
+
+    button {
+        width: 49%;
+        margin-top: 10px;
+    }
+}

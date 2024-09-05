@@ -159,3 +159,80 @@ a {
     margin-bottom: 10px;
     opacity: 0;
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    #seta, #seta-rosa{
+        top: 50px;
+        left: 25px;
+    }
+
+    .container-img:hover #seta-rosa{
+        top: 50px;
+        left: 25px;
+    }
+    
+    .container-img:hover #seta{
+        top: 50px;
+        left: 25px;
+    }
+
+    #facebook{
+        padding: 10px 30px;
+        margin: 25px;
+        width: 300px;
+    }
+
+    #google{
+        padding: 10px 30px;
+        margin: 25px;
+        width: 300px;
+    }
+
+    #apple{
+        padding: 10px 30px;
+        margin: 25px;
+        width: 300px;
+    }
+
+    #fb-logo, #google-logo, #apple-logo{
+        margin-right: 10px;
+        width: 25px;
+        height: auto;
+    }
+
+    #fb-texto, #google-texto, #apple-texto{
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    #email{
+        font-size: 20px;
+    }
+
+    #palavra, #pergunta{
+        color: gray;
+    }
+
+    #texto-principal{
+        font-size: 45px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #pergunta, #signup{
+        font-family: "Inter", sans-serif;
+        font-size: 17px;
+        padding-top: 3vh;
+        font-weight: bold;
+    }
+    .email {
+        margin-top: 15px;
+        padding: 15px 143px;
+        border-radius: 30px;
+        font-size: 15px;
+    }
+}

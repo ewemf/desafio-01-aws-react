@@ -84,3 +84,44 @@ body {
     cursor: pointer;
     width: 5%;
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    body {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    #logo {
+        display: flex;
+        margin-top: -10px;
+        padding-top: -20px;
+        width: 180px;
+        margin-right: 0;
+    }
+
+    .container-img {
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        padding: 4px;
+        width: 100%;
+    }
+
+    #texto {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    #editar-perfil {
+        width: 50%;
+        padding: 15px;
+    }
+
+    #exit {
+        width: 25%;
+        padding: 15px;
+    }
+}

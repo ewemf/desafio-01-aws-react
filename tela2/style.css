@@ -88,10 +88,10 @@
 @media (min-width: 375px) and (max-width: 767px) {
     .container {
         width: 100%;
-        padding: 8px;
+        padding: 10px;
     }
     #img-principal{
-        padding: 15px;
+        padding: 18px;
         width: 90%;
     }
     #texto{
