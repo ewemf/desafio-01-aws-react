@@ -108,12 +108,10 @@ a {
     border: none;
     padding: 12px 90px;
     border-radius: 30px;
-    cursor: pointer;
     text-align: center;
     font-size: 12px;
     transition: box-shadow 0.3s ease;
     cursor: pointer;
-    transition: box-shadow 0.3s ease;
 }
 
 #email:hover {

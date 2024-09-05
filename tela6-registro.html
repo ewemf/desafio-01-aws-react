@@ -11,7 +11,31 @@
 </head>
 <body>
     <div class="container">
-        
+        <img src="carregamento/imgs/logo-pomo.png" id="logo">
+
+        <div class="form-container">
+            <h2>Create your account</h2>
+
+            <form id="formulario">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                
+                <label for="confirm-password">Confirm password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password" required>
+                
+                <div class="butoes">
+                    <button onclick="window.location.href='tela5-login.html';" type="button" id="voltar">Go Back</button>
+                    <button type="submit" id="criar-conta">Create Account</button>
+                </div>
+            </form>
+        </div>
     </div>
+    <script src="tela6/index.js"></script>
 </body>
 </html>

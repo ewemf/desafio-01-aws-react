@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FF6064;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 300px;
+    color: white;
+    margin-right: 230px;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+    width: 330px;
+    height: auto;
+}
+
+h2 {
+    margin-top: 3vh;
+    margin-bottom: 5.5vh;
+    text-align: center;
+    color: black;
+    font-weight: normal;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+label {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    margin-left: 14px;
+    margin-top: 10px;
+    color: black;
+    text-align: left;
+}
+
+input {
+    padding: 10px 15px;
+    margin-top: 5px;
+    border: 0.5px solid black;
+    border-radius: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+input::placeholder {
+    color: gray; /* Cor do placeholder */
+}
+
+.butoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    margin-bottom: 35px;
+}
+
+button {
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 48%;
+}
+
+#voltar {
+    padding: 13px 0;
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+    font-family: 'Inter', sans-serif;
+}
+
+#voltar:hover{
+    background-color: #DDDDDD;
+}
+
+#criar-conta {
+    background-color: #FF6064;
+    color: white;
+    padding: 13px 0;
+    font-family: 'Inter', sans-serif;
+    transition: box-shadow 0.3s ease;
+}
+
+#criar-conta:hover {
+    box-shadow: 0px 2px 4px 0px black;
+}
