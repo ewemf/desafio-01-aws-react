@@ -9,15 +9,15 @@ document.getElementById('formulario').addEventListener('submit', function(event)
     if (password !== confirmPassword) {
         alert('Passwords do not match!');
         return;
-    } else{
-        window.location.href = 'tela7-usuario.html';
     }
 
-    const userData = {
+    const infoUsuario = {
         name: name,
         email: email,
         password: password
     };
 
-    localStorage.setItem('userData', JSON.stringify(userData));
+    localStorage.setItem('infoUsuario', JSON.stringify(infoUsuario));
+
+    window.location.href = 'tela7-usuario.html';
 });
