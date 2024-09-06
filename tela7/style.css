@@ -35,7 +35,7 @@ body {
     flex-direction: column;
 }
 
-#foto-perfil{
+#foto-perfil{ /*adicionei uma foto de perfil vazia para deixar mais criativo a parte do usuario*/
     border-radius: 50%;
 }
 
@@ -52,11 +52,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-#info-usuario strong {
-    color: black;
-}
-
-#editar-perfil{
+#editar-perfil{ /*botão de editar perfil não dá em lugar nenhum mas coloquei para ficar bonito*/
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -68,11 +64,11 @@ body {
     transition: box-shadow 0.3s ease;
 }
 
-#editar-perfil:hover, #exit:hover{
+#editar-perfil:hover, #exit:hover{ /*sombra nos dois botões*/
     box-shadow: 0px 2px 4px 0px black;
 }
 
-#exit{
+#exit{ /*botão de sair, volta para a tela 5 de login*/
     padding: 8px;
     margin-top: 10px;
     background-color: white;
@@ -85,7 +81,7 @@ body {
     width: 5%;
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px) { /*responsividade para mobile*/
     body {
         flex-direction: column;
         padding: 5px;
