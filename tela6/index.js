@@ -1,3 +1,5 @@
+/*usei o localStorage para salvar os dados de registro do usuário*/
+
 document.getElementById('formulario').addEventListener('submit', function(event) {
     event.preventDefault();
 
@@ -6,7 +8,7 @@ document.getElementById('formulario').addEventListener('submit', function(event)
     const password = document.getElementById('password').value;
     const confirmPassword = document.getElementById('confirm-password').value;
 
-    if (password !== confirmPassword) {
+    if (password !== confirmPassword) { /*feito para caso escreva a senha diferente uma da outra continuar na mesma página até acertar*/
         alert('Passwords do not match!');
         return;
     }
@@ -17,7 +19,7 @@ document.getElementById('formulario').addEventListener('submit', function(event)
         password: password
     };
 
-    localStorage.setItem('infoUsuario', JSON.stringify(infoUsuario));
+    localStorage.setItem('infoUsuario', JSON.stringify(infoUsuario)); /*guardando no infoUsuario*/
 
-    window.location.href = 'tela7-usuario.html';
+    window.location.href = 'tela7-usuario.html'; /*depois ir para a tela 7*/
 });
