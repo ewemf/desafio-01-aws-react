@@ -14,7 +14,7 @@
     font-style: normal;
 }
 
-#seta, #seta-rosa{
+#seta, #seta-rosa{ /*usei duas imagens mesmo as duas sendo svg, preferi assim*/
     position: absolute;
     top: 75px;
     left: 108px;
@@ -107,11 +107,11 @@
     cursor: pointer;
 }
 
-.botao:hover {
+.botao:hover { /*sombra do botão*/
     box-shadow: 0px 2px 4px 0px black;
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px) { /*responsividade mobile*/
     .container {
         width: 100%;
         padding: 10px;
