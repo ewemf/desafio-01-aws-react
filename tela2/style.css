@@ -39,7 +39,7 @@
     text-align: center;
 }
 
-.tres-circulos {
+.tres-circulos { /*separei a parte dos circulos em 3, os 3 juntos, os circulos cinzas e o circulo pintado de rosa*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,10 +82,10 @@
 }
 
 .botao:hover {
-    box-shadow: 0px 2px 4px 0px black;
+    box-shadow: 0px 2px 4px 0px black; /*sombra do botão*/
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px) { /*fiz responsividade para mobile*/
     .container {
         width: 100%;
         padding: 10px;
