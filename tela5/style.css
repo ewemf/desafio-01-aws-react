@@ -25,15 +25,13 @@
     justify-content: space-between;
 }
 
-
-
 #texto-principal{
     font-family: "Inter", sans-serif;
     font-size: 6vh;
     padding-top: 30px;
 }
 
-#facebook{
+#facebook{ /*separei os 3 botões*/
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -49,11 +47,11 @@
     width: 250px;
 }
 
-a {
+a { /*para os botões de link não ficarem com linha embaixo do texto*/
     text-decoration: none;
 }
 
-#facebook:hover, #google:hover, #apple:hover{
+#facebook:hover, #google:hover, #apple:hover{ /*efeito para ficar com fundo cinza quando o mouse passar por cima do botão*/
     background-color: #DDDDDD;
 }
 
@@ -89,19 +87,19 @@ a {
     width: 250px;
 }
 
-#fb-texto, #google-texto, #apple-texto{
+#fb-texto, #google-texto, #apple-texto{ /*texto dentro dos botões*/
     font-family: "Inter", sans-serif;
     margin-top: auto;
     margin-bottom: auto;
 }
 
-#fb-logo, #google-logo, #apple-logo{
+#fb-logo, #google-logo, #apple-logo{ /*imagens dentro dos botões*/
     margin-right: 10px;
     width: 16px;
     height: 16px;
 }
 
-#email{
+#email{ /*botão email que é diferente dos outros 3*/
     font-family: "Inter", sans-serif;
     background: #FF6064;
     color: white;
@@ -114,7 +112,7 @@ a {
     cursor: pointer;
 }
 
-#email:hover {
+#email:hover { /*sombra no botão de email*/
     box-shadow: 0px 2px 4px 0px black;
 }
 
@@ -124,18 +122,18 @@ a {
     padding-bottom: 3.5vh;
 }
 
-#pergunta, #signup{
+#pergunta, #signup{ /*a ultima frase separei em 2*/
     font-family: "Inter", sans-serif;
     font-size: 2.5vh;
     padding-top: 3vh;
 }
 
-#signup{
+#signup{ /*frase signup separada pra mudar somente a cor dela*/
     color: #FF6064;
     cursor: pointer;
 }
 
-#seta, #seta-rosa{
+#seta, #seta-rosa{ /*as duas setas*/
     position: absolute;
     top: 75px;
     left: 108px;
@@ -160,7 +158,7 @@ a {
     opacity: 0;
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px) { /*responsividade mobile*/
     .container {
         width: 100%;
         padding: 10px;
